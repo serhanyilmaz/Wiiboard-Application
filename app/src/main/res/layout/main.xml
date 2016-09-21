@@ -1,0 +1,68 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TÜRKİYE FİNANS BANKASI ANLIK DÖVİZ KURU"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:gravity=""/>
+
+
+    <Button
+        android:id="@+id/btnRouteBackupAccount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="80dip"
+        android:layout_marginLeft="80dip"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button_image"
+        android:drawableTop="@drawable/backup_account"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:textSize="14sp"
+        android:text="@string/sira_almak_n_buttona_tiklayiniz"
+        android:textColor="@drawable/custom_button_text_color"
+        android:textStyle="normal" />
+    <Button
+        android:id="@+id/btnTakeOrder"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dip"
+        android:layout_marginLeft="80dip"
+        android:background="@drawable/custom_button_image"
+        android:drawableTop="@drawable/tfkb"
+        android:paddingBottom="5dip"
+        android:paddingTop="5dip"
+        android:textSize="14dip"
+        android:text="SIRA ALMAK İÇİN BUTTONA TIKLAYINIZ"
+        android:textColor="@drawable/custom_button_text_color"
+        android:textStyle="normal" />
+    <Button
+        android:id="@+id/yenileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/yenile"
+        />
+<ListView
+    android:id="@+id/dovizOranListView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/menuFixo"
+
+>
+
+</ListView>
+
+
+
+</LinearLayout>

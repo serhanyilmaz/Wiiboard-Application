@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 
+    *Burda kendimiz button oluşturmuyoruz .
+    *Sadece normalde(başlangıçta) ve tıklandığı zaman hangi image lerin gösterileceğini seçiyoruz
+    
+     -->
+<item android:state_pressed="true" android:drawable="@drawable/image_button_click" />
+<item android:drawable="@drawable/image_button" /> 
+</selector>

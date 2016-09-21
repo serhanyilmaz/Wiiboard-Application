@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 
+    *Arkadaşlar buton tıklandığı zaman renk değişimini yapıyoruz
+    *Ama bu değişen renge görede text renginide değiştirmek gerekebilir.
+    *İşte bu xml dosyasıda bu işe yarıyor
+    *android:textColor ile bu dosyası çağırıyoruz. Burda normalde beyaz renkte,
+    * bağlı olduğu item tıklandığında ise siyah renk oluyor
+    
+     -->
+    <item android:state_pressed="true" android:color="#000000" />
+    <item android:color="#ffffff" />
+</selector>

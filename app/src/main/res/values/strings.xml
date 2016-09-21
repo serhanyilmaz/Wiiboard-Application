@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">TFKB MOBILE APP</string>
+    <string name="add_textbox_hint">Add a ToDo item</string>
+    <string name="add_button_text">Add</string>
+    <string name="service_title">Mobile Apps </string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="checkbox_text">Item Text</string>
+    <string name="doviz_takip_url">http://www.tcmb.gov.tr/kurlar/today.xml</string>
+    <string name="yenile">YENİLE</string>
+    <string name="sira_almak_n_buttona_tiklayiniz">YEDEK HESAP BİLGİSİNE ULAŞMAK İÇİN TIKLAYINIZ</string>
+    <string name="currency_url">https://apptestgateway.turkiyefinans.com.tr/Dev-C49367/TurkiyeFinans.ApiManagement/IExchangeRateRestService.svc/httpget/GetAllExchangeRateForCustomerXml?serviceUserName=apiManagement&amp;password=UE5KP3JM&amp;customerId=0</string>
+
+    <string name="wifi_name">mobx</string>
+    <string name="title_activity_select_wifi">SelectWifiActivity</string>
+    <string name="tfkb_mob_l_uygulamasina_ho_geld_n_z">TFKB MOBİL UYGULAMASINA HOŞGELDİNİZ</string>
+    <string name="title_activity_deneme">Deneme</string>
+
+</resources>

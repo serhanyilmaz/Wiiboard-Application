@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="Lütfen Bir Wifi Seçiniz" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textview"
+        android:id="@+id/spinner"
+        android:clickable="true">
+
+    </Spinner>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:text="Bir Kablosuz Ağ Adı Seçiniz"
+        android:layout_below="@+id/spinner" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAYITLI WİFİ DEĞİŞTİR"
+        android:id="@+id/btnApprove"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KAYITLI WİFİ GÖSTER"
+        android:id="@+id/btnSaveWifi"
+        android:layout_below="@+id/btnApprove"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İŞLEM SAYFASINA GİT"
+        android:id="@+id/btnProcessGo"
+        android:layout_alignRight="@+id/btnApprove"
+        android:layout_alignEnd="@+id/btnApprove"
+        android:layout_below="@+id/btnSaveWifi" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ANKET SAYFASINA GİT"
+        android:id="@+id/btnSurveyGo"
+        android:layout_below="@+id/btnProcessGo"
+        android:layout_alignRight="@+id/btnProcessGo"
+        android:layout_alignEnd="@+id/btnProcessGo" />
+
+</RelativeLayout>

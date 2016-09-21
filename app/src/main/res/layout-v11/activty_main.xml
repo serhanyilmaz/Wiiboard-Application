@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#71BCFA"
+        android:padding="6dip" >
+
+
+        <ProgressBar
+            android:id="@+id/loadingProgressBar"
+            android:layout_width="28dp"
+            android:layout_height="28dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#71BCFA"
+        android:padding="6dip"  >
+
+
+        <Button
+            android:id="@+id/btnSmile"
+            android:background="@drawable/custom_button_image"
+            android:drawableTop="@drawable/smile"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:onClick="addItem"
+            android:text="ÇOK İYİ"
+            android:layout_marginTop="39dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <Button
+            android:id="@+id/btnAvarage"
+            android:background="@drawable/custom_button_image"
+            android:drawableTop="@drawable/avarage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:onClick="addItem"
+            android:text="ORTA"
+            android:layout_below="@+id/btnSmile"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="56dp" />
+        <Button
+            android:id="@+id/btnSad"
+            android:background="@drawable/custom_button_image"
+            android:drawableTop="@drawable/sad"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addItem"
+            android:layout_weight="0.33"
+            android:text="ÇOK KÖTÜ"
+            android:layout_marginTop="71dp"
+            android:layout_below="@+id/btnAvarage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="UYGULAMAMIZ HAKKINDA NE DÜŞÜNÜYORSUNUZ"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textSize="12dip" />
+
+    </RelativeLayout>
+
+
+    <ListView
+        android:id="@+id/listViewToDo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        tools:listitem="@layout/row_list_to_do"
+        android:padding="6dip"
+        android:layout_marginTop="20dp">
+
+    </ListView>
+
+</LinearLayout>

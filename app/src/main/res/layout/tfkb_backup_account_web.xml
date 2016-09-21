@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0E0D1" >
+
+    <LinearLayout
+        android:id="@+id/katman1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/buttonGeri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Geri" />
+
+        <Button
+            android:id="@+id/buttonAnasayfa"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Anasayfa" />
+
+        <Button
+            android:id="@+id/buttonIleri"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ileri" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/katman2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/katman1" >
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:text="Copyright TFKB 2016"
+        android:textColor="#553400" />
+
+    <WebView
+        android:id="@+id/webFK"
+        android:layout_width="fill_parent"
+        android:layout_height="3000dp"
+        android:layout_below="@id/katman2"
+        android:layout_above="@id/copyright" />
+
+
+</RelativeLayout>
